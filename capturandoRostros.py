@@ -7,7 +7,7 @@ import imutils
 #emotionName = 'Sorpresa'
 emotionName = 'Tristeza'
 
-dataPath = 'C:/Users/Geral/Documentos/AcProyecto/data' #Cambia a la ruta donde hayas almacenado Data
+dataPath = 'C:/Users/Geral/Documentos/IAproyecto/data' #Cambia a la ruta donde hayas almacenado Data
 emotionsPath = dataPath + '/' + emotionName
 
 if not os.path.exists(emotionsPath):
