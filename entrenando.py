@@ -18,7 +18,7 @@ def obtenerModelo(method,facesData,labels):
 	# Almacenando el modelo obtenido
 	emotion_recognizer.write("modelo"+method+".xml")
 
-dataPath = 'C:/Users/Geral/Documentos/AcProyecto/data' #Cambia a la ruta donde hayas almacenado Data
+dataPath = 'C:/Users/Geral/Documentos/IAproyecto/data' #Cambia a la ruta donde hayas almacenado Data
 emotionsList = os.listdir(dataPath)
 print('Lista de personas: ', emotionsList)
 
