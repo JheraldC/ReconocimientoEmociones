@@ -1,6 +1,12 @@
 import cv2
 import os
 import numpy as np
+import json
+
+def get_data_path():
+    with open('config.json', 'r') as config_file:
+        config = json.load(config_file)
+    return config['dataPath']
 
 def emotionImage(emotion):
 	# Emojis
@@ -22,7 +28,7 @@ if method == 'LBPH': emotion_recognizer = cv2.face.LBPHFaceRecognizer_create()
 emotion_recognizer.read('modelo'+method+'.xml')
 # --------------------------------------------------------------------------------
 
-dataPath = 'C:/Users/Geral/Documentos/IAproyecto/data' #Cambia a la ruta donde hayas almacenado Data
+dataPath = get_data_path()
 imagePaths = os.listdir(dataPath)
 print('imagePaths=',imagePaths)
 
