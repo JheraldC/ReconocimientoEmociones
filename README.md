@@ -34,4 +34,4 @@ Este repositorio conserva un trabajo académico. Los comandos describen el uso p
 
 ## Versiones relacionadas
 
-La [variante con análisis de calidad](https://github.com/JheraldC/ReconocimientoEmociones-CG) incorpora configuración de SonarQube.
+La [variante con análisis de calidad](https://github.com/JheraldC/trabajo-academico-expresiones-faciales-calidad) incorpora configuración de SonarQube.
